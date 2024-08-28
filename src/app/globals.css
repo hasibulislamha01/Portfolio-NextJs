@@ -26,6 +26,20 @@
     rgb(var(--background-start-rgb));
 } */
 
+.active-route{
+  color: #37CDBE;
+  border-bottom: 2px solid #37CDBE;
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.inactive-route{
+  color: white;
+  border-bottom: 2px solid transparent;
+  transition: all;
+  transition-duration: 500ms;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
