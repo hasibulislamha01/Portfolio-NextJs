@@ -39,7 +39,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className='fixed w-full py-5 bg-slate-800 text-white px-4 md:px-0'>
+        <nav className='fixed w-full py-5 text-white px-4 md:px-0'>
             <div className='container mx-auto'>
 
 

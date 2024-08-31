@@ -8,8 +8,12 @@ export default function Home() {
   return (
     <main className="flex flex-col items-center ">
       <Banner />
-      <Services />
-      <Resume/>
+
+      <div className="container mx-auto">
+        <Services />
+        <Resume />
+      </div>
+      
     </main>
   );
 }
