@@ -22,7 +22,7 @@ const Services = () => {
         }
     ]
     return (
-        <section id='services' className='w-full section text-white flex flex-col items-center justify-center'>
+        <section id='services' className='w-full text-white flex flex-col items-center justify-center'>
             <h1 className='text-3xl'>Services</h1>
 
             <div className='mt-12 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-4'>

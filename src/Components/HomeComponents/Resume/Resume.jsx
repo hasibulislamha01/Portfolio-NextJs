@@ -2,7 +2,7 @@ import React from 'react';
 
 const Resume = () => {
     return (
-        <div id='resume' className='section w-full'>
+        <div id='resume' className=' w-full'>
             Resume
         </div>
     );

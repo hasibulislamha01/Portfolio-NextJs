@@ -6,12 +6,12 @@ import Info from './Info';
 
 const Banner = () => {
     return (
-        <section className='w-full section container mx-auto  flex flex-col md:flex-row items-center justify-evenly border border-red-300'>
+        <section className='w-full section container mx-auto  flex flex-col md:flex-row items-center justify-evenly'>
 
             <Info></Info>
             
             <Photo></Photo>
-            <SlidingText></SlidingText>
+            {/* <SlidingText></SlidingText> */}
         </section>
     );
 };

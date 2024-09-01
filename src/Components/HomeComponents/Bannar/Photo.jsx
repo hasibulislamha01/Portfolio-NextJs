@@ -16,7 +16,7 @@ const Photo = () => {
         }
     }
     return (
-        <div className='order-1 md:order-none relative  border border-red-300'>
+        <div className='order-1 md:order-none relative '>
             <motion.div initial={initial} animate={animate}>
                 <motion.div 
                 initial={initial}

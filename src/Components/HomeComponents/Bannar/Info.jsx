@@ -32,7 +32,7 @@ const Info = () => {
         <motion.div variants={containerVariant}             
         initial="initial"
         animate="animate" 
-        className=' border border-red-300 flex flex-col gap-6 justify-center text-center md:text-left'>
+        className='flex flex-col gap-6 justify-center text-center md:text-left'>
 
             <motion.h3 variants={variant} className='text-lg lg:text-2xl tracking-[3px] hover:tracking-[6px] font-extralight text-accent uppercase hover:translate-x-3 transition-all duration-1000 ease-in-out'>
                 Hasibul Islam
