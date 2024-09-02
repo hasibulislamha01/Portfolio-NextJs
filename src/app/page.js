@@ -1,4 +1,5 @@
 
+import About from "@/Components/HomeComponents/About/About";
 import Banner from "@/Components/HomeComponents/Bannar/Banner";
 import Projects from "@/Components/HomeComponents/Projects/Projects";
 import Resume from "@/Components/HomeComponents/Resume/Resume";
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner />
 
       <div className="container mx-auto">
+        <About/>
         <Services />
         <Resume />
         <Projects/>
