@@ -2,6 +2,7 @@ import React from 'react';
 
 const Services = () => {
 
+
     const servicesCollection = [
         {
             id: 1,
@@ -30,7 +31,7 @@ const Services = () => {
                     servicesCollection?.map(service =>
                         <div
                             key={service.id}
-                            className='group space-y-4  border border-gray-500 hover:border-accent px-12 py-8 rounded-xl transition-all duration-500'
+                            className='mx-auto group space-y-4  border border-gray-500 hover:border-accent px-12 py-8 rounded-xl transition-all duration-500'
                         >
                             {/* <h1 className='text-3xl text-white font-bold text-shadow-md'>{service?.id}</h1> */}
                             <div className='space-y-2'>

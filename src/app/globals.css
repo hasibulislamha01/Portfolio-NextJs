@@ -8,6 +8,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  /* color: #00ff99b0 */
 }
 
 
@@ -36,6 +37,10 @@
   border-bottom: 2px solid transparent;
   transition: all;
   transition-duration: 500ms;
+}
+
+.text-outline{
+  -webkit-text-stroke: 1px white;
 }
 
 @layer utilities {
