@@ -24,7 +24,7 @@ const About = () => {
         <motion.div
             variants={variant}
             initial='initial'
-            whileInView={'animate'}
+            whileInView='animate'
             viewport={{ once: true, amount: 0.5 }}
             className='min-h-screen flex flex-col justify-center text-white text-center space-y-6'
         >
